@@ -1,0 +1,24 @@
+org 100  
+Input 
+store m 
+input
+store n 
+
+loop, load num 
+add m 
+store num 
+
+load n 
+subt one 
+store n 
+
+Skipcond 400 
+JUMP loop 
+load num 
+Output
+halt 
+
+m, dec 0 
+n, dec 0 
+num, dec 0
+one, dec 1 

@@ -1,0 +1,32 @@
+    ORG 100
+    LOAD ZERO    
+    STORE I
+
+LOOP,   LOAD I     
+    SUBT THREE    
+    SKIPCOND 000  
+    JUMP print   
+    JUMP increase
+
+print,  OUTPUT      
+
+increase,  LOAD I    
+    ADD ONE        
+    STORE I        
+    LOAD FIVE      
+    SUBT I         
+    SKIPCOND 000  
+    JUMP LOOP      
+
+ENDLOOP, HALT       
+
+I,      DEC 0       
+ONE,    DEC 1       
+THREE,  DEC 3       
+FIVE,   DEC 5       
+ZERO,   DEC 0       
+
+
+
+
+

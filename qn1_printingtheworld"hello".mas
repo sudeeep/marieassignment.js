@@ -1,0 +1,18 @@
+ORG 100
+Load H
+Output
+Load E
+Output                                                  
+Load L
+Output
+Load L
+Output
+Load O
+Output
+Halt
+
+H, HEX 48   
+E, HEX 65   
+L, HEX 6C   
+O, HEX 6F   
+END

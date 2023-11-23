@@ -1,0 +1,31 @@
+org 100 
+load a 
+store a 
+loop, load a 
+subt pach 
+Skipcond  0000
+Jump endloop
+load a
+subt tin 
+skipcond 400 
+jump again 
+jump continue 
+output
+again, load a
+output 
+add ekk
+store a
+jump loop
+
+endloop, halt 
+
+continue, load a
+add ekk    
+store a
+jump loop 
+
+a, dec 0  // a is zero 
+ekk, dec 1 // ekk is one 
+tin, dec 3 // tin is 3 in  nepalii 
+pach, dec 5 // pach is 5 in nepali 
+
